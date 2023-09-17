@@ -59,7 +59,7 @@ The following architecture view is a DDD Context Map. It shows how the Road Warr
 We believe the implementation of each BC can follow the hexagonal architecture. The following architecture describes how the code of each BC can be structured according to this architecture style.
 
 [Hexagonal Architecture](architecture/hexagonal-architecture.md)
-![Alt text](images/hexagonal-architecturep.png?raw=true "Hexagonal Architecture")
+![Alt text](images/hexagonal-architecture.png?raw=true "Hexagonal Architecture")
 
 ## [Architecture Decision Records (ADRs)](./ADRs)
 
