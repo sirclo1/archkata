@@ -28,7 +28,7 @@ As a starting point, there's a context diagram that gives an overview of the ext
 ### Content
 - [DDD Context Map](./architecture/ddd-context-map.md)
 - [Context Diagram](./architecture/context-diagram.md)
-- [Container Diagram](./architecture/container.diagram.md)
+- [Container Diagram](./architecture/container-diagram.md)
 - Hexagonal Architecture
 
 ## [Architecture Decision Records (ADRs)](./ADRs)
