@@ -14,4 +14,4 @@ The hexagonal architecture has a number of advantages, including:
 - Testability: The hexagonal architecture makes it easier to test the application's core logic. This is because the core logic can be tested in isolation from the outside world.
 - Maintainability: The hexagonal architecture makes the application easier to maintain. This is because the core logic is isolated from the outside world, which makes it easier to make changes to the core logic without impacting the outside world.
 
-![Hexagonal](../images/hexagonal.png)
+![Hexagonal Architecture](../images/hexagonal-architecture.png)
