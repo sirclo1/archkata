@@ -34,36 +34,22 @@ This document presents a hexagonal architecture diagram for the Road Warrior sys
 
 # Microservices View
 
-The main part of the software architecture is the set of four architecture views seen below.
+The main part of the software architecture is the set of six architecture views seen below.
 
-## User Service
+[User Microservice](./architecture/user-microservice.md)
+![Alt text](../images/user-microservice.png?raw=true "User Microservice")
 
-The scope is the operations that the user can perform related to creating and managing an account and user profile, which includes signing in using user ID and password or different credentials (Google, Facebook, etc.).
-![User Service](../images/user-microservice.png)
-### Element
+[Reservation Microservice EDA](a./rchitecture/reservation-microservice-eda.md)
+![Alt text](../images/reservation-microservice-eda.png?raw=true "Reservation Microservice EDA")
 
-#### Road Warrior App
-Web application created using an SPA framework
+[Mail Adapter Microservice](./architecture/mail-adapter-microservice.md)
+![Alt text](../images/mail-adapter-microservice.png?raw=true "Mail Adapter Microservice")
 
-#### Api Gateway
-Acts as an entry point for multiple APIs (Application Programming Interfaces) or microservices, providing a centralized and unified interface for clients to access various backend services
+[Analytic Microservice](./architecture/analytic-microservice.md)
+![Alt text](../images/analytic-microservice.png?raw=true "Analytic Microservice")
 
-#### Auth0
-External provider for Open ID authentication that allows users to create an account using their Google or Social Media account.
+[Reporting Microservice](./architecture/reporting-microservice.md)
+![Alt text](../images/reporting-microservice.png?raw=true "Reporting Microservice")
 
-
-## Mail Adapter Service
-
-The scope for polling email looking for travel-related emails, filter and whitelist certain emails, parsing & create reservations data into Road Warrior App.
-
-## Reservation Service
-
-This service covers all functionality / core functions related to view, add, update, delete, and share existing reservation, get updated travel details from the agency’s (delays, cancellations, updates, gate changes, etc.) and provide data for summary reports or data analytical.
-
-## Analytic Service
-
-The scope gathers analytical data from users' trips for various purposes - travel trends, locations, airline and hotel vendor preferences, cancellation and update frequency.
-
-## Reporting Service
-
-This service for provide end-of-year summary reports for users with a wide range of metrics about their travel usage.
+[Travel Agency Adapter Microservice](./architecture/travel-agency-adapter-microservice.md)
+![Alt text](../images/travel-agency-adapter-microservice.png?raw=true "Travel Agency Adapter Microservice")
