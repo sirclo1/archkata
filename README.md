@@ -12,18 +12,24 @@ The four of us are software engineers in the IT department of [SIRCLO](https://w
 
 # The Road Warrior
 
-## Requirements
+## [Requirements](./requirements)
 
 This section contains the requirements, distilled from the provided [document](requirements/requirements.pdf).
 
 * [Functional requirements](requirements/functional.md)
 * [Quality attribute requirements](requirements/quality-attribute.md)
 
-## Architecture
+## [Architecture](./architecture)
 
 Here you find the documentation of the software architecture that we envision to address The Road Warrior's requirements.
 
 As a starting point, there's a context diagram that gives an overview of the external elements that interact with what we called the Road Warrior System, which is the scope of this software architecture.
+
+### Content
+- [DDD Context Map](./architecture/ddd-context-map.md)
+- [Context Diagram](./architecture/context-diagram.md)
+- [Container Diagram](./architecture/container.diagram.md)
+- Hexagonal Architecture
 
 ## [Architecture Decision Records (ADRs)](./ADRs)
 
