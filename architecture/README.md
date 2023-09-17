@@ -26,8 +26,6 @@ This document presents a system container diagram for the Road Warrior system. T
 
 # [Hexagonal Diagram](./hexagonal.md)
 
-# Hexagonal
-
 This document presents a hexagonal architecture diagram for the Road Warrior system. The system is a a system that manage user travel reservations and group it by trip. The diagram shows the high-level architecture of the system and how it is connected to external system.
 
 ![Hexagonal Architecture](../images/hexagonal-architecture.png)
@@ -36,20 +34,20 @@ This document presents a hexagonal architecture diagram for the Road Warrior sys
 
 The main part of the software architecture is the set of six architecture views seen below.
 
-[User Microservice](./architecture/user-microservice.md)
+[User Microservice](./user-microservice.md)
 ![Alt text](../images/user-microservice.png?raw=true "User Microservice")
 
-[Mail Adapter Microservice](./architecture/mail-adapter-microservice.md)
+[Mail Adapter Microservice](./mail-adapter-microservice.md)
 ![Alt text](../images/mail-adapter-microservice.png?raw=true "Mail Adapter Microservice")
 
-[Reservation Microservice EDA](a./rchitecture/reservation-microservice-eda.md)
+[Reservation Microservice EDA](./reservation-microservice-eda.md)
 ![Alt text](../images/reservation-microservice-eda.png?raw=true "Reservation Microservice EDA")
 
-[Travel Agency Adapter Microservice](./architecture/travel-agency-adapter-microservice.md)
+[Travel Agency Adapter Microservice](./travel-agency-adapter-microservice.md)
 ![Alt text](../images/travel-agency-adapter-microservice.png?raw=true "Travel Agency Adapter Microservice")
 
-[Analytic Microservice](./architecture/analytic-microservice.md)
+[Analytic Microservice](./analytic-microservice.md)
 ![Alt text](../images/analytic-microservice.png?raw=true "Analytic Microservice")
 
-[Reporting Microservice](./architecture/reporting-microservice.md)
+[Reporting Microservice](./reporting-microservice.md)
 ![Alt text](../images/reporting-microservice.png?raw=true "Reporting Microservice")
