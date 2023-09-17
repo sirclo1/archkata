@@ -28,26 +28,38 @@ This document presents a system container diagram for the Road Warrior system. T
 
 This document presents a system deployment diagram for the Road Warrior system. The system is a system that help user to manage travel reservations and group it by trip. The diagram shows the hardware and software components of the system and how they are interconnected.
 
-## Microservices View
+# Microservices View
 
 The main part of the software architecture is the set of four architecture views seen below.
 
-### User Service
+## User Service
 
 The scope is the operations that the user can perform related to creating and managing an account and user profile, which includes signing in using user ID and password or different credentials (Google, Facebook, etc.).
+![User Service](../images/user-microservice.png)
+### Element
 
-### Mail Adapter Service
+#### Road Warrior App
+Web application created using an SPA framework
+
+#### Api Gateway
+Acts as an entry point for multiple APIs (Application Programming Interfaces) or microservices, providing a centralized and unified interface for clients to access various backend services
+
+#### Auth0
+External provider for Open ID authentication that allows users to create an account using their Google or Social Media account.
+
+
+## Mail Adapter Service
 
 The scope for polling email looking for travel-related emails, filter and whitelist certain emails, parsing & create reservations data into Road Warrior App.
 
-### Reservation Service
+## Reservation Service
 
 This service covers all functionality / core functions related to view, add, update, delete, and share existing reservation, get updated travel details from the agency’s (delays, cancellations, updates, gate changes, etc.) and provide data for summary reports or data analytical.
 
-### Analytic Service
+## Analytic Service
 
 The scope gathers analytical data from users' trips for various purposes - travel trends, locations, airline and hotel vendor preferences, cancellation and update frequency.
 
-### Reporting Service
+## Reporting Service
 
 This service for provide end-of-year summary reports for users with a wide range of metrics about their travel usage.
