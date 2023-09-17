@@ -39,17 +39,17 @@ The main part of the software architecture is the set of six architecture views 
 [User Microservice](./architecture/user-microservice.md)
 ![Alt text](../images/user-microservice.png?raw=true "User Microservice")
 
+[Mail Adapter Microservice](./architecture/mail-adapter-microservice.md)
+![Alt text](../images/mail-adapter-microservice.png?raw=true "Mail Adapter Microservice")
+
 [Reservation Microservice EDA](a./rchitecture/reservation-microservice-eda.md)
 ![Alt text](../images/reservation-microservice-eda.png?raw=true "Reservation Microservice EDA")
 
-[Mail Adapter Microservice](./architecture/mail-adapter-microservice.md)
-![Alt text](../images/mail-adapter-microservice.png?raw=true "Mail Adapter Microservice")
+[Travel Agency Adapter Microservice](./architecture/travel-agency-adapter-microservice.md)
+![Alt text](../images/travel-agency-adapter-microservice.png?raw=true "Travel Agency Adapter Microservice")
 
 [Analytic Microservice](./architecture/analytic-microservice.md)
 ![Alt text](../images/analytic-microservice.png?raw=true "Analytic Microservice")
 
 [Reporting Microservice](./architecture/reporting-microservice.md)
 ![Alt text](../images/reporting-microservice.png?raw=true "Reporting Microservice")
-
-[Travel Agency Adapter Microservice](./architecture/travel-agency-adapter-microservice.md)
-![Alt text](../images/travel-agency-adapter-microservice.png?raw=true "Travel Agency Adapter Microservice")
