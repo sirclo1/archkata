@@ -24,7 +24,7 @@ This document presents a system container diagram for the Road Warrior system. T
 
 ![Container Diagram](../images/container-diagram.png)
 
-# [Hexagonal Diagram](./hexagonal.md)
+# [Hexagonal](./hexagonal.md)
 
 This document presents a hexagonal architecture diagram for the Road Warrior system. The system is a a system that manage user travel reservations and group it by trip. The diagram shows the high-level architecture of the system and how it is connected to external system.
 
