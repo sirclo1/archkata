@@ -25,15 +25,46 @@ Here you find the documentation of the software architecture that we envision to
 
 As a starting point, there's a context diagram that gives an overview of the external elements that interact with what we called the Road Warrior System, which is the scope of this software architecture.
 
-### Content
-- [DDD Context Map](./architecture/ddd-context-map.md)
-- [Context Diagram](./architecture/context-diagram.md)
-- [Container Diagram](./architecture/container-diagram.md)
-- Hexagonal Architecture
+[Context Diagram](architecture/context-diagram.md)
+![Alt text](images/context-diagram.png?raw=true "Context Diagram")
+
+[Container Diagram](architecture/container-diagram.md)
+![Alt text](images/container-diagram.png?raw=true "Container Diagram")
+
+The main part of the software architecture is the set of six architecture views seen below.
+
+[User Microservice](architecture/user-microservice.md)
+![Alt text](images/user-microservice.png?raw=true "User Microservice")
+
+[Reservation Microservice EDA](architecture/reservation-microservice-eda.md)
+![Alt text](images/reservation-microservice-eda.png?raw=true "Reservation Microservice EDA")
+
+[Mail Adapter Microservice](architecture/mail-adapter-microservice.md)
+![Alt text](images/mail-adapter-microservice.png?raw=true "Mail Adapter Microservice")
+
+[Analytic Microservice](architecture/analytic-microservice.md)
+![Alt text](images/analytic-microservice.png?raw=true "Analytic Microservice")
+
+[Reporting Microservice](architecture/reporting-microservice.md)
+![Alt text](images/reporting-microservice.png?raw=true "Reporting Microservice")
+
+[Travel Agency Adapter Microservice](architecture/travel-agency-adapter-microservice.md)
+![Alt text](images/travel-agency-adapter-microservice.png?raw=true "Travel Agency Adapter Microservice")
+
+The following architecture view is a DDD Context Map. It shows how the Road Warrior system is broken up into bounded contexts (BCs) and how they interact with each other.
+
+[DDD Context Map](architecture/ddd-context-map.md)
+![Alt text](images/ddd-context-map.png?raw=true "DDD Context Map")
+
+We believe the implementation of each BC can follow the hexagonal architecture. The following architecture describes how the code of each BC can be structured according to this architecture style.
+
+[Hexagonal Architecture](architecture/hexagonal-architecture.md)
+![Alt text](images/hexagonal-architecturep.png?raw=true "Hexagonal Architecture")
 
 ## [Architecture Decision Records (ADRs)](./ADRs)
 
-Here you can find the architecture decision records that we proposed to address The Road Warrior's requirements.
+The linked ADRs below record the main architecture decisions regarding the proposed design, including their context and rationale
 
 ### Content
 - [ADR 001: Use the microservice architecture style with containerization](./ADRs/001-use-of-microservices-style.md)
+As a starting point, there's a context & container diagram that gives an overview of the external elements that interact with what we called the Road Warrior System, which is the scope of this software architecture.
