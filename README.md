@@ -68,3 +68,4 @@ The linked ADRs below record the main architecture decisions regarding the propo
 ### Content
 - [ADR 001: Use the microservice architecture style with containerization](./ADRs/001-use-of-microservices-style.md)
 - [ADR 002: Use of GCP](./ADRs/002-use-of-gcp.md)
+- [ADR 003: Separate Analytic & Reporting Domain](./003-separate-domain-analytic-report.md)
