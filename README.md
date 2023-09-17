@@ -67,4 +67,4 @@ The linked ADRs below record the main architecture decisions regarding the propo
 
 ### Content
 - [ADR 001: Use the microservice architecture style with containerization](./ADRs/001-use-of-microservices-style.md)
-As a starting point, there's a context & container diagram that gives an overview of the external elements that interact with what we called the Road Warrior System, which is the scope of this software architecture.
+- [ADR 002: Use of GCP](./ADRs/002-use-of-gcp.md)
