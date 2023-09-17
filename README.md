@@ -24,3 +24,10 @@ This section contains the requirements, distilled from the provided [document](r
 Here you find the documentation of the software architecture that we envision to address The Road Warrior's requirements.
 
 As a starting point, there's a context diagram that gives an overview of the external elements that interact with what we called the Road Warrior System, which is the scope of this software architecture.
+
+## [Architecture Decision Records (ADRs)](./ADRs)
+
+Here you can find the architecture decision records that we proposed to address The Road Warrior's requirements.
+
+### Content
+- [ADR 001: Use the microservice architecture style with containerization](./ADRs/001-use-of-microservices-style.md)
